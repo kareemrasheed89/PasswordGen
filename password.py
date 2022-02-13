@@ -34,7 +34,7 @@ if passgen:
     time.sleep(1)
     col2.subheader(password)
     st.balloons()
-st.warning("Help: in case you dont need up to 16 character length password, just copy the length you need. This passowrd is UNIQUE and nobody sees yours")
+    st.warning("Help: in case you dont need up to 16 character length password, just copy the length you need. This passowrd is UNIQUE and nobody sees yours")
 line="_"*1000
 st.write(line)
 st.write("")
