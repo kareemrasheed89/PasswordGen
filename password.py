@@ -14,7 +14,7 @@ menu_items={
 }
 )
 st.markdown(f"""<h1 style="color:black ; text-align:center;font-size:32px; background-color: grey;">
-PASSWORD GENERATOR APP (Protect Your Credentials With A Strong Passowrd)
+PASSWORD GENERATOR APP (Protect Your Credentials With A Strong Password)
 """,unsafe_allow_html=True)
 image="password_img.jpg"
 st.image(image,use_column_width=True)
@@ -30,7 +30,7 @@ password= "".join(random.sample(string, length))
 passgen=st.button("GENERATE PASSWORD")
 if passgen:
     col1,col2,col3=st.columns([0.77,3,0.33])
-    col2.header("You just generate your passowrd")
+    col2.header("You just generate your password")
     time.sleep(1)
     col2.subheader(password)
     st.balloons()
