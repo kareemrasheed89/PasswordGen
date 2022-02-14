@@ -48,7 +48,6 @@ st.write("")
 st.markdown(f"""<p style="color:grey ; text-align:center;font-size:12px;">
 Copyright|RashyPy2022(c)
 """,unsafe_allow_html=True)
-
 st.markdown(f"""<p style="color:black; text-align:center;font-size:12px;">
 ✉️kareemrasheed89@gmail.com
 """,unsafe_allow_html=True)
